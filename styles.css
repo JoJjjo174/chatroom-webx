@@ -1,0 +1,141 @@
+p {
+    color: black;
+}
+h1 {
+    color: black;
+}
+h4 {
+    color: black;
+}
+
+headerDiv {
+    background-color: #d1eaff;
+    direction: column;
+}
+
+field {
+    direction: column;
+
+    border-color: #616161;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background-color: #d1eaff;
+    padding: 15px;
+    margin-right: 15px;
+}
+
+accountInput {
+    height: 40px;
+    width: 200px;
+    color: gray;
+    font-size: 20px;
+    padding: 5px;
+}
+
+accountButtonDiv {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    direction: row;
+}
+
+accountButton {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+
+    border-color: #616161;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background-color: lightgreen;
+
+    width: 100px;
+}
+
+accountOverviewDiv {
+    background-color: #d1eaff;
+    direction: column;
+}
+
+fieldContainer {
+    margin-right: 9999px;
+}
+
+li {
+    color: black;
+}
+
+statsSpacing {
+    margin-bottom: 174px;
+}
+
+settingSaveButton {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+
+    border-color: #616161;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+
+    margin-top: 96px;
+}
+
+chatField {
+    background-color: #c1ced9;
+    direction: column;
+    padding: 15px;
+    gap: 10px;
+}
+
+message {
+    border-color: #616161;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+
+    padding: 10px;
+    margin-right: 10400px;
+    direction: column;
+}
+
+messageHeader {
+    color: gray;
+    font-weight: bold;
+}
+
+messageSub {
+    font-size:9px;
+    color: gray;
+}
+
+messageInput {
+    color: gray;
+    font-size: 20px;
+    padding: 5px;
+
+    width: 600px;
+    height: 35px;
+}
+
+messageButton {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+
+    border-color: #616161;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #d1eaff;
+}
+
+errormessage {
+    color: red;
+}
