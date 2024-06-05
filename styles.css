@@ -87,9 +87,16 @@ settingSaveButton {
 }
 
 chatField {
-    background-color: #c1ced9;
     direction: column;
+
+    border-color: #616161;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background-color: #d1eaff;
     padding: 15px;
+    margin-right: 0px;
     gap: 10px;
 }
 
@@ -101,7 +108,7 @@ message {
     background-color: white;
 
     padding: 10px;
-    margin-right: 10400px;
+    
     direction: column;
 }
 
@@ -138,4 +145,22 @@ messageButton {
 
 errormessage {
     color: red;
+}
+
+msgContainer {
+    direction: column;
+    margin-right: 15px;
+}
+
+updateDate {
+    color: gray;
+    font-size: 10px;
+}
+
+seo {
+    color: #d1eaff;
+}
+
+rightside {
+    direction: column;
 }

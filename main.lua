@@ -72,14 +72,18 @@ function login(loginData)
     passwordInput.set_content("")
 end
 
+msgError.set_content("1")
+
 reloadMessages()
+
+msgError.set_content("2")
 
 local res = fetch({
     url = apiEndpoint .. "pageload",
     method = "GET",
     headers = { ["Content-Type"] = "application/json" }
 })
-registeredUsers.set_content("Registered Users: " .. res["registered_users"])
+registeredUsers.set_content("Registered Users: " .. res.registered_users)
 
 
 registerButton.on_click(function()
