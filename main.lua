@@ -72,11 +72,7 @@ function login(loginData)
     passwordInput.set_content("")
 end
 
-msgError.set_content("1")
-
 reloadMessages()
-
-msgError.set_content("2")
 
 local res = fetch({
     url = apiEndpoint .. "pageload",
